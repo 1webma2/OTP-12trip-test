@@ -19,3 +19,13 @@ https://boosters.pro/championship/onetwotrip_challenge/rating
 3. Roc curve and cut off point. Python (https://stackoverflow.com/questions/28719067/roc-curve-and-cut-off-point-python)
 
 4. ML bootcamp. Руководство для начинающих. (https://mlbootcamp.ru/article/tutorial/)
+
+
+Вывод:
+
+Было построено 3 модели: Логистическая регрессия, случайный лес и градиентный бустинг.
+Наилучшее значение roc_auc показал градиентный бустинг. Скор составил 0.68, для случайного леса 0.67, для логистической регрессии 0.66
+
+Была совершена попытка нахождения наилучшего порога для улуччшения качества модели, но не получилось. 
+
+
